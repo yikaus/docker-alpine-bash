@@ -1,6 +1,6 @@
 # Run bash in alpine docker 
 
-Based on small alpine docker image , you can build images less 50MB or even 10 MB
+Based on small [alpine docker image] , you can build images less 50MB or even 10 MB
 
 # Instructions
 
@@ -19,3 +19,4 @@ docker run gliderlabs/alpine /sbin/apk --update search -v PKG_NAME
 example:
 docker run gliderlabs/alpine /sbin/apk --update search -v nginx
 
+[alpine docker image]: https://github.com/gliderlabs/docker-alpine
