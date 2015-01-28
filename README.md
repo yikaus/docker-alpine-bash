@@ -10,7 +10,7 @@ docker pull yikaus/alpine-bash
 
 docker run --rm -ti yikaus/alpine-bash /bin/bash 
 
-- Check avaiable package can be built on alpine
+- Check available package can be built on alpine
 
 docker pull gliderlabs/alpine
 
