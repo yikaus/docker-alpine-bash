@@ -14,7 +14,7 @@ docker run --rm -ti yikaus/alpine-bash /bin/bash
 
 docker pull gliderlabs/alpine
 
-docker run gliderlabs/alpine /sbin/apk --update search -v <softwareName>
+docker run gliderlabs/alpine /sbin/apk --update search -v PKG_NAME
 
 example:
 docker run gliderlabs/alpine /sbin/apk --update search -v nginx
