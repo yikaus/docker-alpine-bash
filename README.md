@@ -1,4 +1,4 @@
-# run bash in alpine docker 
+# Run bash in alpine docker 
 
 # Instructions
 
