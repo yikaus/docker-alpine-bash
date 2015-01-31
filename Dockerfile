@@ -1,4 +1,5 @@
 FROM yikaus/alpine-base
 
 MAINTAINER yikaus <yikaus@gmail.com>
-RUN apk-install bash 
+RUN apk add --update bash && rm -rf /var/cache/apk/*
+
