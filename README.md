@@ -2,6 +2,8 @@
 
 It is my test on building a docker image based on small [alpine docker image] , you can build images less 50MB or even 10 MB
 
+I also made [slef built base image] , and use it as base container . 
+
 # Instructions
 
 - Run bash
@@ -19,8 +21,9 @@ docker run --rm gliderlabs/alpine /sbin/apk --update search -v PKG_NAME
 example:
 docker run --rm gliderlabs/alpine /sbin/apk --update search -v nginx
 
-[alpine docker image]: https://github.com/gliderlabs/docker-alpine
-
 - Directly running shell on base image
 
 docker run --rm -ti gliderlabs/alpine /bin/sh
+
+[alpine docker image]: https://github.com/gliderlabs/docker-alpine
+[slef built base image]: https://github.com/yikaus/docker-alpine-base
