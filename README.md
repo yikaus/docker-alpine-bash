@@ -8,22 +8,22 @@ I also made [slef built base image] , and use it as base container .
 
 - Run bash
 
-docker pull yikaus/alpine-bash
+`docker pull yikaus/alpine-bash`
 
-docker run --rm -ti yikaus/alpine-bash /bin/bash 
+`docker run --rm -ti yikaus/alpine-bash /bin/bash`
 
 - Check available package can be built on alpine
 
-docker pull gliderlabs/alpine
+`docker pull gliderlabs/alpine`
 
-docker run --rm gliderlabs/alpine /sbin/apk --update search -v PKG_NAME
+`docker run --rm gliderlabs/alpine /sbin/apk --update search -v PKG_NAME`
 
 example:
-docker run --rm gliderlabs/alpine /sbin/apk --update search -v nginx
+`docker run --rm gliderlabs/alpine /sbin/apk --update search -v nginx`
 
 - Directly running shell on base image
 
-docker run --rm -ti gliderlabs/alpine /bin/sh
+`docker run --rm -ti gliderlabs/alpine /bin/sh`
 
 [alpine docker image]: https://github.com/gliderlabs/docker-alpine
 [slef built base image]: https://github.com/yikaus/docker-alpine-base
